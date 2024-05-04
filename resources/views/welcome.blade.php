@@ -5,5 +5,7 @@
 @endsection
 
 @section('contenido')
-    <h1>hola mundo</h1>
+    <h1 class="text-3xl font-bold text-red-600 underline">
+        Hello world!
+    </h1>
 @endsection
