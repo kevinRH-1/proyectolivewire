@@ -20,7 +20,7 @@
         </x-sidebar>
 
     </header>
-    <main class=" w-11/12 m-auto">
+    <main class=" w-11/12 m-auto pt-20">
         @yield('contenido')
     </main>
         

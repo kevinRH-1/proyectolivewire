@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
-abstract class Controller
+use App\Livewire\VerClientes;
+
+class Controller
 {
-    //
+    public function dashboard(){
+        return view('welcome');
+    }
 }
